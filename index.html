@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelNest Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>PixelNest Studio</h1>
+    <p>Small team. Clean websites.</p>
+  </header>
+
+  <nav class="top-nav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home" class="panel hero">
+      <h2>Home</h2>
+      <p>We design and build fast, friendly websites for local shops, clubs and student projects.
+         Everything is hand-written HTML, CSS and a little JavaScript.</p>
+    </section>
+
+    <section id="about" class="panel">
+      <h2>About</h2>
+      <p>PixelNest started as a college project. We care about readable code, mobile-first layouts
+         and pages that load quickly on slow connections.</p>
+    </section>
+
+    <section id="services" class="panel">
+      <h2>Services</h2>
+      <div class="cards">
+        <article class="service">
+          <h3>Web Development</h3>
+          <p>Static sites and small web apps built with plain HTML, CSS and JavaScript.</p>
+        </article>
+        <article class="service">
+          <h3>UI Design</h3>
+          <p>Simple layouts, readable typography and colours that pass accessibility checks.</p>
+        </article>
+        <article class="service">
+          <h3>Speed Tuning</h3>
+          <p>Lazy loading, minified files and caching so your site feels instant.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="panel">
+      <h2>Contact</h2>
+      <label for="visitor-name">Your name</label>
+      <input type="text" id="visitor-name" placeholder="e.g. Simran">
+      <br>
+      <button id="send-btn" type="button">Say hello</button>
+      <p id="reply" role="status"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year">2026</span> PixelNest Studio. Built by Akarshdeep Singh (25124004).</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
